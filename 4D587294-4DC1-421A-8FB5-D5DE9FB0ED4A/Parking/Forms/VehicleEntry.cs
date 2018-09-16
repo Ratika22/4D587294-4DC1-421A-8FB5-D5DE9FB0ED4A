@@ -128,5 +128,10 @@ namespace Parking.Entry.Forms
 
             Size = new Size(1024, 768);
         }
+
+        private void btnCar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("BMW");
+        }
     }
 }
